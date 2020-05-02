@@ -43,7 +43,7 @@ public class LembasCore
     @Instance(value = LembasCore.MODID)
     public static LembasCore instance;
 
-    @SidedProxy(clientSide = "lembas.core.internal.client.LembasCoreClientImpl", serverSide = "lembas.core.internal.server.LembasCoreServerImplF", modId = LembasCore.MODID)
+    @SidedProxy(clientSide = "lembas.core.internal.client.LembasCoreClientImpl", serverSide = "lembas.core.internal.server.LembasCoreServerImpl", modId = LembasCore.MODID)
     public static LembasCoreCommonImpl proxy;
 
     private LembasCoreClientImpl client;
